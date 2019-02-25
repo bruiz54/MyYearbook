@@ -91,9 +91,13 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
 
-    <android.support.constraint.Constraints
-        android:id="@+id/constraints"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <WebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+
+        />
 
 </android.support.constraint.ConstraintLayout>
